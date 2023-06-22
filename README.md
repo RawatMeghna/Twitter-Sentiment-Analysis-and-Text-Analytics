@@ -1,3 +1,3 @@
 # Twitter Sentiment Analysis and Text Analytics
 
-This project analyzes tweet sentiments using a Kaggle dataset. The data is cleaned, split, and vectorized. A Support Vector Classifier achieves 95% accuracy, classifying tweets as racist/sexist or not, providing Twitter sentiment insights.
+This project involves analyzing sentiments in tweets. The project begins with a Twitter dataset obtained from Kaggle and proceeds to clean the data using the tweet-preprocessor library and regular expressions. A 70/30 train-test split is performed, followed by vectorizing the tweets using CountVectorizer. The project then builds a Support Vector Classifier model, achieving an impressive 95% accuracy. The project aims to provide insights into sentiment analysis on Twitter data, enabling the classification of tweets as either associated with racist or sexist sentiments (labeled '1') or not'
